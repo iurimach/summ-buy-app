@@ -42,7 +42,7 @@ export class AppComponent  implements OnInit {
       price: 340,
       name: 'Hiking bag',
       ebaut: ' produqtia magari, leptopi xxxxxxxxxxxx : xxxxxxxxxx : xxxxxx xxxxxxxxx  xxxxx xxxxx',
-      src: 'https://ae01.alicdn.com/kf/S89dca96122044221b2bb16beb1250f36u/90L-Travel-Bag-Camping-Backpack-Hiking-Army-Climbing-Bags-Mountaineering-Large-Capacity-Sport-Bag-Outdoor-Military.jpg',
+      src: 'https://www.tsxluggage.com/uploads/Hiking-backpack-12.jpg',
       checked: false
     }, {
       id: 3,
@@ -73,7 +73,7 @@ export class AppComponent  implements OnInit {
       price: 340,
       name: 'Hiking bag',
       ebaut: ' produqtia magari, leptopi xxxxxxxxxxxx : xxxxxxxxxx : xxxxxx xxxxxxxxx  xxxxx xxxxx',
-      src: 'https://ae01.alicdn.com/kf/S89dca96122044221b2bb16beb1250f36u/90L-Travel-Bag-Camping-Backpack-Hiking-Army-Climbing-Bags-Mountaineering-Large-Capacity-Sport-Bag-Outdoor-Military.jpg',
+      src: 'https://www.tsxluggage.com/uploads/Hiking-backpack-12.jpg',
       checked: false
     },
 
