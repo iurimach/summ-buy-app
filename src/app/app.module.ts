@@ -5,16 +5,25 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 
+import { DatePipe } from '@angular/common';
+import { BuyComponent } from './buy/buy.component';
+import { HomePageComponent } from './home-page/home-page.component';
+
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BuyComponent,
+    HomePageComponent,
+  
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [DatePipe,AppComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
