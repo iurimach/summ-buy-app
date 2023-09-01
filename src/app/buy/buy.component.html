@@ -1,13 +1,13 @@
-<button [routerLink]="['']" class="btback">  Back</button>
+<button [routerLink]="['']" class="btback">  &lt; Back</button>
 
 <div class="section1">
     <div class="wrapper">
         <div class="header">
             <div class="logo">
                 <img src="assets/img/logotbc.png" alt="err foto">
-                <p> TBC bank </p>
+                <a href="https://www.tbcbank.ge/web/en/web/guest/personal-banking" target="_blank" > <p class="tbc"> TBC bank </p></a>
             </div>
-            <p> help ?</p>
+            <p (click)="help()"> help ?</p>
         </div>
 
         <div class="amount">
@@ -26,7 +26,7 @@
         </div>
 
         <div class="footer">
-            <button> Pay</button>
+            <button (click)="pay()"> Pay</button>
         </div>
     </div>
 

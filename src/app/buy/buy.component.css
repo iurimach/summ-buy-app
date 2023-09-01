@@ -48,6 +48,12 @@
 .logo>img{
     height: 30px;
     cursor: pointer;
+    border-radius: 5px;
+    
+}
+.tbc{
+   text-decoration: none;
+   color: black;
 }
 .header>p{
     margin-right: 10px;
@@ -153,6 +159,12 @@
 
 
 /* mobile version-- response */
+@media(max-width:500px) {
+    .header>p{
+        width: 20%;
+    }
+
+}
 
 @media(max-width:420px) {
     
@@ -167,4 +179,8 @@
     .input3{
         width: 40%;
     }
+    .header>p{
+        width: 30%;
+    }
+    
 }

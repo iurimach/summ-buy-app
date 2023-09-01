@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class BuyComponent {
 
+  help(){
+    alert("help will be added soon!!")
+  }
+pay(){
+  alert('pay  will be added soon !!!!! ')
+}
 }
